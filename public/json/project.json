@@ -1,0 +1,136 @@
+[
+  {
+    "date": "2023",
+    "title": "HKO | “Dr. Tin” Chatbot",
+    "detail": "“Dr. Tin” chatbot service provides information including local weather conditions, forecast, warnings, tides, Hong Kong standard time, as well as weather forecast, sunrise, and sunset times of major world cities in the form of question and answer.",
+    "badge": [
+      "Web App",
+      "A11y",
+      "Testing"
+    ],
+    "img": "hko_chatbot.jpg",
+    "themeColor": "#004A87",
+    "link": "https://www.hko.gov.hk/en/myobservatory.htm"
+  },
+  {
+    "date": "2022",
+    "title": "MyObservatory | Observatorys Meteorological Information Dissemination System",
+    "detail": "Dissemination of weather information to the public and special users is automatically done through network and facsimile with the Observatorys Meteorological Information Dissemination System (MINDS).",
+    "badge": [
+      "Web GUI",
+      "Revamp"
+    ],
+    "themeColor": "#004A87"
+  },
+  {
+    "date": "2022",
+    "title": "KID First Co-parenting Support Link",
+    "detail": "KID First aims at providing one-stop “child-focused” co-parenting support services to separated/divorcing/divorced parents and their children.",
+    "badge": [
+      "Facebook App",
+      "Resopnsive"
+    ],
+    "img": "coparenting.jpg",
+    "themeColor": "#ffc700",
+    "link": "https://coparenting.org.hk/tc/"
+  },
+  {
+    "date": "2020",
+    "title": "I-Primo Hong Kong | Guardian of Love",
+    "awards": {
+      "title": "MARKies Awards Hong Kong | BEST USE OF O2O STARTEGY | BRONZE",
+      "link": "https://awards.marketing-interactive.com/markies-hk/2020/winners/"
+    },
+    "detail": "",
+    "badge": [
+      "Facebook App",
+      "Resopnsive"
+    ],
+    "img": "i-primo.jpg",
+    "themeColor": "#ffc700"
+  },
+  {
+    "date": "2017-2021",
+    "title": "ALIBABA ENTREPRENEURS FUND | JUMPSTARTER",
+    "detail": "JUMPSTARTER is a not-for-profit initiative curated by Alibaba Entrepreneurs Fund that provides a platform for all entrepreneurs and young people to jump start their dreams in Hong Kong.",
+    "badge": [
+      "Website",
+      "Resopnsive",
+      "interactive"
+    ],
+    "img": "jumpstarter.jpg",
+    "themeColor": "#ffc700",
+    "link": "https://2021.jumpstarter.hk/"
+  },
+  {
+    "date": "2017-2021",
+    "title": "JC-PEAR",
+    "detail": "JC PEAR is a positive education project funded by The Hong Kong Jockey Club Charities Trust that runs from September 2017 to February 2021.",
+    "badge": [
+      "Website",
+      "Resopnsive",
+      "interactive",
+      "animation"
+    ],
+    "img": "jc_pear.jpg",
+    "themeColor": "#ffc700",
+    "link": "https://jc-pear.cuhk.edu.hk/select/lang"
+  },
+  {
+    "date": "2018",
+    "title": "The Chinese Manufacturers' Association of Hong Kong",
+    "detail": "Established in 1934, the Chinese Manufacturers' Association of Hong Kong (CMA) is a non-profit making industrial organisation.",
+    "badge": [
+      "Facebook App",
+      "Resopnsive"
+    ],
+    "img": "cma.jpg",
+    "themeColor": "#ffc700",
+    "link": "https://www.cma.org.hk/"
+  },
+  {
+    "date": "2012",
+    "title": "Audi A1 Website",
+    "awards": {
+      "title": "Web Marketing Association’s WebAwards | Best Automobile Website 2012",
+      "link": "https://www.webaward.org/winner/18647/pacificlink-imedia-limited-wins-2012-webaward-for-audi-a1-website.html"
+    },
+    "detail": "",
+    "badge": [
+      "Resopnsive",
+      "Interactive"
+    ],
+    "img": "audi_a1.jpg",
+    "themeColor": "#0099BE"
+  },
+  {
+    "date": "2012",
+    "title": "Audi Q1 Website",
+    "awards": {
+      "title": "Web Marketing Association’s WebAwards | Automobile Standard of Excellence 2012",
+      "link": "https://www.webaward.org/winner/18647/pacificlink-imedia-limited-wins-2012-webaward-for-audi-a1-website.html"
+    },
+    "detail": "",
+    "badge": [
+      "Resopnsive",
+      "Interactive"
+    ],
+    "img": "audi_q3.jpg",
+    "themeColor": "#0099BE"
+  },
+  {
+    "date": "2012",
+    "title": "Hactl Website Revamp",
+    "awards": {
+      "title": "Web Marketing Association’s WebAwards | Outstanding Website 2012",
+      "link": "https://www.webaward.org/winner/18644/pacificlink-imedia-limited-wins-2012-webaward-for-hactl-website-revamp.html"
+    },
+    "detail": "",
+    "badge": [
+      "Revamp",
+      "CMS"
+    ],
+    "img": "hactl.jpg",
+    "themeColor": "#0099BE"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "PersonalParticulars": {
+    "Name": "Felix Yip",
+    "Email": "tkyip3@gmail.com"
+  },
+  "Working Experience": {
+    "Dec/2021-Now": {
+      "Position": "Contract Analyst Programmer",
+      "Detail": [
+        "Development of the web-based GUI client application",
+        "Test on the web-based GUI client application",
+        "Develop web-based application and management portal for Chatbot"
+      ]
+    },
+    "Aug/2018-Dec/2021": {
+      "Position": "Senior Web Developer",
+      "Detail": [
+        "Web development, Teach client use CMS, Create Manual for CMS",
+        "Responsive website, CMS website, UI/UX suggestion, website animation"
+      ]
+    }
+  },
+  "Awards": {
+    "2020": [
+      "MARKies Awards Hong Kong 2020, BEST USE OF O2O STARTEGY, BRONZE"
+    ],
+    "2012": [
+      "Best Automobile Website, Audi A1 Website",
+      "Automobile Standard of Excellence, Audi Q3 Website",
+      "Outstanding Website, Hactl Website Revamp"
+    ]
+  }
+}
