@@ -262,7 +262,7 @@ function App() {
                   date={item.date}
                 >
                   <div className="vertical-timeline-element-inner">
-                    <img src={`/public/img/project/${item.img}`} alt="" />
+                    <img src={`/img/project/${item.img}`} alt="" />
                     <div className="vertical-timeline-element-content-wrapper">
                       <h3 style={{ color: item.themeColor }}>{item.title}</h3>
                       <hr style={{ borderTopColor: item.themeColor }} />
