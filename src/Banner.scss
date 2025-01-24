@@ -1,0 +1,11 @@
+.banner {
+  @apply relative h-[160px];
+  .banner-bg {
+    @apply absolute w-full h-full bg-[url('/public/img/banner/bg.jpg')] bg-left bg-cover;
+  }
+  .banner-title {
+    @apply text-green-haze absolute w-full h-full flex justify-end items-end font-bold text-6xl p-4;
+
+    text-shadow: 3px 3px #165232;
+  }
+}

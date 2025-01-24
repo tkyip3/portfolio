@@ -357,6 +357,11 @@ $shadows-big: multiple-box-shadow(200);
     }
     form {
       @apply float-end;
+      input,
+      textarea,
+      .btn {
+        @apply rounded-none;
+      }
       input {
         @apply mb-2 input-sm md:input;
       }
@@ -472,5 +477,11 @@ $shadows-big: multiple-box-shadow(200);
   }
   .loading-text {
     @apply text-center font-semibold text-6xl lg:text-9xl;
+  }
+  .loading-btn {
+    @apply absolute right-4 bottom-4 text-xl align-bottom;
+    svg {
+      @apply inline-block me-1;
+    }
   }
 }

@@ -17,11 +17,14 @@ import {
   LiaEnvelope,
   LiaEllipsisVSolid,
 } from "react-icons/lia";
+import { PiSkipForward } from "react-icons/pi";
 
 import Logo from "../public/img/logo.svg";
 import HomeYip from "../public/img/home_yip.png";
 import refJson from "./assets/ref.json";
 import projectJson from "../public/json/project.json";
+
+import Banner from "../src/Banner.tsx";
 
 interface ProjectsData {
   date: string;
@@ -37,11 +40,17 @@ interface ProjectsData {
   link?: string;
 }
 
+function isMobile() {
+  const regex =
+    /Mobi|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+  return regex.test(navigator.userAgent);
+}
+
 function Tilt(props: { [x: string]: any; options: any }) {
   const { options, ...rest } = props;
   const tilt = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (tilt.current) {
+    if (tilt.current && !isMobile()) {
       VanillaTilt.init(tilt.current, options);
     }
   }, [options]);
@@ -191,7 +200,8 @@ function App() {
           <img src={HomeYip} alt="" />
         </div>
       </section>
-      <section id="about" className="about-dev">
+      <Banner id="about" title="About me"></Banner>
+      <section className="about-dev">
         <div className="dev-title">
           <h2>front-end</h2>
           <hr />
@@ -232,7 +242,9 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="timeline" className="timeline">
+
+      <Banner id="timeline" title="Project"></Banner>
+      <section className="timeline">
         <div className="timeline-bg">
           <div id="stars"></div>
           <div id="stars2"></div>
@@ -262,7 +274,12 @@ function App() {
                   date={item.date}
                 >
                   <div className="vertical-timeline-element-inner">
-                    <img src={`/img/project/${item.img}`} alt="" />
+                    {item.img ? (
+                      <img src={`/img/project/${item.img}`} alt="" />
+                    ) : (
+                      ""
+                    )}
+
                     <div className="vertical-timeline-element-content-wrapper">
                       <h3 style={{ color: item.themeColor }}>{item.title}</h3>
                       <hr style={{ borderTopColor: item.themeColor }} />
@@ -323,7 +340,8 @@ function App() {
           </VerticalTimeline>
         </div>
       </section>
-      <section id="contact" className="contact">
+      <Banner id="contact" title="Contact"></Banner>
+      <section className="contact">
         <div className="contact-form">
           <div className="form-wrapper">
             <div className="wrapper-item">
@@ -340,23 +358,27 @@ function App() {
                   type="text"
                   name="name"
                   placeholder="Name"
+                  required
                 />
                 <input
                   className="input input-bordered w-full max-w-xs"
                   type="email"
                   name="email"
                   placeholder="Email"
+                  required
                 />
                 <input
                   className="input input-bordered w-full max-w-xs"
                   type="text"
                   name="subject"
                   placeholder="Subject"
+                  required
                 />
                 <textarea
                   className="textarea textarea-bordered w-full max-w-xs"
                   name="message"
                   placeholder="Message"
+                  required
                 ></textarea>
                 <button className="btn" type="submit">
                   Send
@@ -429,6 +451,16 @@ function App() {
         <div className="loading-text">
           <span ref={el}></span>
         </div>
+        <button
+          onClick={() => {
+            window.scrollTo(0, 0);
+            setLoadingClass("loading-hide");
+            setHomeClass("active");
+          }}
+          className="loading-btn"
+        >
+          <PiSkipForward /> Skip
+        </button>
       </div>
     </>
   );
